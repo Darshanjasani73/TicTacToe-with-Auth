@@ -1,0 +1,85 @@
+#box{
+    margin: 15px;
+	width: 90%;
+	height: 65%;
+	overflow: hidden;
+	background: no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    background-image:url("GameContMain.jpg");
+	box-shadow: 0px 0px 5px rgb(207, 245, 255); 
+    display: flex;
+    justify-content: center;
+	display: none;
+}
+.material-icons{
+	float: right;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+i.fa-spin{
+	font-size: 29px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;  
+}
+.fa-spin:hover, .material-icons:hover {
+    color: #4b7d89;
+}
+/* Common styles for all screen sizes */
+.grid-container {
+    grid-template-columns: repeat(3, 5pc);
+    grid-template-rows: repeat(3, 5pc);
+    border-radius: 10px;
+    background-color: #6B728E;
+    border: 1px solid #000000cc;
+    padding: 12px;
+    margin: 30px auto;
+    display: grid;
+    grid-gap: 5px;
+    display: none;
+  }
+  .grid-item {
+    background-color: #50577A;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  i.fa-close, i.fa-circle-thin {
+    display: none;
+    color: #1a1c33;
+    font-size: 36px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 300px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 3.5pc);
+      grid-template-rows: repeat(3, 3.5pc);
+      padding: 5px;
+      margin: 10px auto;
+      grid-gap: 3px;
+    }
+  
+    .grid-item {
+      padding: 7px;
+      font-size: 14px;
+    }
+  
+    i.fa-close, i.fa-circle-thin {
+      font-size: 14px;
+    }
+    #box{
+      height: 40%;
+    }
+  }
+  
+  

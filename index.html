@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/Gamestyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="main"> 
+        <i class="fa fa-refresh fa-spin" style="font-size:24px" onclick="restart()"></i>
+		<i class="material-icons" style="font-size:28px" onclick="Exit()">cancel</i>
+        <h1 onclick="hide()" style="color: #ffffff; font-family:'Times New Roman', Times, serif ; font-weight: bolder;" >TicTacToe</h1> 
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup" id="Signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="" id="name">
+					<input type="email" name="email" placeholder="Email" required="" id="email">
+					<input type="password" name="pswd" placeholder="Password(only numbers)" required="" id="password" class="pswd">
+					<button type="button"  onclick="signup()">Sign up</button>
+				</form>
+			</div>
+			<div class="login" id="Login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="" id="Email">
+					<input type="password" name="pswd" placeholder="Password(only numbers)" required="" id="Password" class="pswd">				
+					<button type="button" onclick="login()">Login</button>
+				</form>
+			</div>
+				   <div id="box">
+					<div id="Game1" >
+						<div class="grid-container">
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close"></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>  
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>  
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div>
+							<div onclick="TicTacToe(this)"  class="grid-item"><i  class="fa fa-circle-thin" ></i><i   class="fa fa-close" ></i></div> 
+						  </div>
+					</div>
+				   </div>
+	</div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/Gamescript.js"></script>
+</html> 
