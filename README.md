@@ -23,9 +23,10 @@ Welcome to the Tic Tac Toe Game project! This is a simple yet fun implementation
 5. Click on the squares to make your move and try to get three in a row vertically, horizontally, or diagonally.
 6. Enjoy the game with animations and voice effects enhancing your experience!
 
-## Screenshots
-![Screenshot 2024-02-04 183454](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/ed4be2f4-621a-4a43-8041-a8058f83a127)
-![Screenshot 2024-02-04 183406](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/53556e30-32be-47b3-bcfa-e43e23b8cc47)
+## UI of Project
+![Screenshot 2024-05-04 111812](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/da3cbcfa-4258-4ee8-a621-418024a0ca8e)
+![Screenshot 2024-05-04 111900](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/1d9c60f7-8ad6-4e44-b3f7-c9ce8eac8d9c)
+![Screenshot 2024-05-04 111918](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/764a0920-80a7-407a-8577-2702c1025537)
 
 ## License
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
