@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+# Tic Tac Toe Game 🎮
 
 Welcome to the Tic Tac Toe Game project! This is a simple yet fun implementation of the classic Tic Tac Toe game built using HTML, CSS, and JavaScript. In addition to the basic functionalities, this project also incorporates authentication, animations, and voice effects to enhance the gaming experience.
 
@@ -24,8 +24,8 @@ Welcome to the Tic Tac Toe Game project! This is a simple yet fun implementation
 6. Enjoy the game with animations and voice effects enhancing your experience!
 
 ## UI of Project
+![Screenshot 2024-05-04 111748](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/8dbfceb4-207c-49ff-a2fb-c51bdcf9e92d)
 ![Screenshot 2024-05-04 111812](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/da3cbcfa-4258-4ee8-a621-418024a0ca8e)
-![Screenshot 2024-05-04 111900](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/1d9c60f7-8ad6-4e44-b3f7-c9ce8eac8d9c)
 ![Screenshot 2024-05-04 111918](https://github.com/Darshanjasani73/TicTacToe-with-Auth/assets/167104440/764a0920-80a7-407a-8577-2702c1025537)
 
 ## License
