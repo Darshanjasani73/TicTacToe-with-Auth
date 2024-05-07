@@ -34,6 +34,6 @@ Welcome to the Tic Tac Toe Game project! This is a simple yet fun implementation
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out to Darshan Jasani at darshanjasani555@gmail.com.
+If you have any questions or suggestions, feel free to reach out to Me at djasani93@gmail.com.
 
 Enjoy playing Tic Tac Toe! 🎮✨
